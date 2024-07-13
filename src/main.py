@@ -1,6 +1,5 @@
 from textnode import TextNode, text_type_bold
-from htmlnode import HTMLNode
-from leafnode import LeafNode
+from htmlnode import HTMLNode, LeafNode
 
 def main():
     t_node = TextNode("This is a text node",text_type_bold, "https://www.boot.dev")
